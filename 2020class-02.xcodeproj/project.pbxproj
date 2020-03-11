@@ -15,6 +15,7 @@
 		5D2229B7241638EF005FB157 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D2229B5241638EF005FB157 /* LaunchScreen.storyboard */; };
 		5D2229C2241638F0005FB157 /* _020class_02Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2229C1241638F0005FB157 /* _020class_02Tests.swift */; };
 		5D2229CD241638F0005FB157 /* _020class_02UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2229CC241638F0005FB157 /* _020class_02UITests.swift */; };
+		5D2229DD24192141005FB157 /* FirstPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D2229DC24192141005FB157 /* FirstPage.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5D2229A7241638DD005FB157 /* 2020class-02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2020class-02.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D2229A7241638DD005FB157 /* 草莓花園.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "草莓花園.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D2229AA241638DD005FB157 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D2229AC241638DD005FB157 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5D2229AE241638DD005FB157 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		5D2229C8241638F0005FB157 /* 2020class-02UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2020class-02UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D2229CC241638F0005FB157 /* _020class_02UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _020class_02UITests.swift; sourceTree = "<group>"; };
 		5D2229CE241638F0005FB157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D2229DC24192141005FB157 /* FirstPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FirstPage.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +91,7 @@
 		5D2229A8241638DD005FB157 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5D2229A7241638DD005FB157 /* 2020class-02.app */,
+				5D2229A7241638DD005FB157 /* 草莓花園.app */,
 				5D2229BD241638F0005FB157 /* 2020class-02Tests.xctest */,
 				5D2229C8241638F0005FB157 /* 2020class-02UITests.xctest */,
 			);
@@ -102,6 +104,7 @@
 				5D2229AA241638DD005FB157 /* AppDelegate.swift */,
 				5D2229AC241638DD005FB157 /* SceneDelegate.swift */,
 				5D2229AE241638DD005FB157 /* ViewController.swift */,
+				5D2229DC24192141005FB157 /* FirstPage.storyboard */,
 				5D2229B0241638DE005FB157 /* Main.storyboard */,
 				5D2229B3241638EF005FB157 /* Assets.xcassets */,
 				5D2229B5241638EF005FB157 /* LaunchScreen.storyboard */,
@@ -145,7 +148,7 @@
 			);
 			name = "2020class-02";
 			productName = "2020class-02";
-			productReference = 5D2229A7241638DD005FB157 /* 2020class-02.app */;
+			productReference = 5D2229A7241638DD005FB157 /* 草莓花園.app */;
 			productType = "com.apple.product-type.application";
 		};
 		5D2229BC241638F0005FB157 /* 2020class-02Tests */ = {
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D2229DD24192141005FB157 /* FirstPage.storyboard in Resources */,
 				5D2229B7241638EF005FB157 /* LaunchScreen.storyboard in Resources */,
 				5D2229B4241638EF005FB157 /* Assets.xcassets in Resources */,
 				5D2229B2241638DE005FB157 /* Main.storyboard in Resources */,
@@ -442,7 +446,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Sethought.-020class-02";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "草莓花園";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -460,7 +464,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Sethought.-020class-02";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "草莓花園";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
